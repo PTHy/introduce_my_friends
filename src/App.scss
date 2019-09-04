@@ -1,0 +1,33 @@
+.app-header {
+  background-color: darkblue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  .menu-bar {
+    list-style-type: none;
+    li {
+      float: left;
+    }
+    a {
+      text-decoration: none;
+      font-size: 2vmin;
+      color: white;
+      padding: 3vmin;
+      display: block;
+      border-bottom: 3px solid transparent;
+
+      &:hover {
+        color: yellow;
+        border-bottom: 3px solid yellow;
+      }
+    }
+  }
+}
+
+.app-body {
+  position: absolute;
+  top: 12vmin;
+  font-size: 2vmin;
+}

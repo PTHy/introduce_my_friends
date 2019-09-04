@@ -1,0 +1,48 @@
+.user-container {
+  align-content: center;
+  margin-left: 42vw;
+  margin-top: 30vh;
+
+  .btn-group {
+    margin-left: 30px;
+  }
+}
+
+input {
+  font-size: 20px;
+}
+
+.user-edit-container {
+  margin-left: 42vw;
+  margin-top: 30vh;
+}
+
+.user-register-container {
+  margin-left: 42vw;
+  margin-top: 30vh;
+  input {
+    display: inline-block;
+    margin: 20px;
+  }
+}
+
+.btn-small {
+  background-color: magenta;
+  padding: 7px;
+  border-radius: 7px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+
+  &:hover {
+    background-color: deeppink;
+  }
+
+  a {
+    color: white;
+  }
+
+  &:nth-child(2) {
+    margin-left: 100px;
+  }
+}

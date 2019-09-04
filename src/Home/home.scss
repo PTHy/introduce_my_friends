@@ -1,0 +1,42 @@
+.home-container {
+  header {
+    div {
+      display: inline-block;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 99vw;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+
+    thead {
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      background: magenta;
+
+      th {
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        color: #fff;
+      }
+    }
+
+    tbody {
+      font-weight: bold;
+      vertical-align: top;
+      border-bottom: 1px solid #ccc;
+      background: #fcf1f4;
+    }
+
+    td {
+      padding: 10px;
+      vertical-align: top;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}
